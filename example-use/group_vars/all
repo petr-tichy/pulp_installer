@@ -1,7 +1,8 @@
 ---
-pulp_default_admin_password: password
+pulp_default_admin_password: Q1NCyav1LCTo3Eh2ANa3sBdahafoUItc
 pulp_install_plugins:
   pulp-file: {}
 pulp_settings:
-  secret_key: secret
-  content_origin: "http://{{ ansible_fqdn }}"
+  secret_key: T3MLDp2qokUxuxd8zT65pqKDPZDfBHxV
+  content_origin: "http://pulp.p-hub.internal"
+postgres_users_no_log: false
